@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>It is home</h1>
+    <h1>It it angular</h1>
     <Links></Links>
   </div>
 </template>
