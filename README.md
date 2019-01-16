@@ -46,9 +46,6 @@
 ```
 在路由中这样定义，然后当页面处于符合上述正则规则的路由的时候，可以通过`this.$route.params.id`来调用
 
-## 多重嵌套
-同时，本次实例中，`/pl/:language/projects/:num`中，language的变化不会销毁再创建子路由`projects/:num`。但是会触发子路由中的一些钩子函数 比如你可以watch $route。num的变化也会触发pl.vue中相应的构造函数。
-
 ## [note](./detail.md)
 
 ## [conclusion](./conclu.md)

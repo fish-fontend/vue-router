@@ -23,6 +23,7 @@ import NanJin from '@/components/NanJin.vue'
 Vue.use(Router)
 
 export default new Router({
+  // mode: 'history', // 让hash路由长得像一般的path
   routes: [
     {
       path: '/',
